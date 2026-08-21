@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+title: "certivl: exact rational and certified interval arithmetic"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - given-names: Vincent
+    family-names: Gonzalez
+    orcid: "https://orcid.org/0009-0005-3640-014X"
+    email: vincegonzalez@me.com
+repository-code: "https://github.com/vince-gonzalez/certivl"
+abstract: >-
+  Exact rational and certified interval arithmetic. Every quantity is a Fraction
+  or a closed interval with exact rational endpoints guaranteed to contain the
+  true value, and every operation rounds outward, so containment survives
+  composition. A computed inequality therefore stands as a proof rather than an
+  estimate.
+
+  Validated enclosures for sqrt, sin, cos, tan, sec, asin, atan and pi, integer
+  square roots, and certified root bracketing of an integer polynomial by
+  bisection with exact sign evaluation. Standard library only; mpmath is an
+  optional extra used solely to convert existing mpf inputs.
+
+  This is the kernel underneath four deposited papers on certified computation
+  for classical plane-covering problems.
+keywords:
+  - interval arithmetic
+  - certified computation
+  - computer-assisted proof
+  - exact arithmetic
+  - validated numerics
+license: MIT
