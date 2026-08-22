@@ -30,7 +30,7 @@ from .exact import (  # noqa: F401
     tan_ivl,
 )
 
-__version__ = "0.1.0"
+__version__ = "0.1.2"
 __all__ = [
     "Ivl", "abs_ivl", "asin_ivl", "atan_ivl", "cos_ivl", "deg", "isolate_root",
     "isqrt_ivl", "mpf_to_frac", "pi_ivl", "sec_ivl", "sin_ivl", "sqrt2",
